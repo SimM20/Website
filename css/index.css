@@ -1,0 +1,103 @@
+
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-text {
+    position: absolute;
+    bottom: 35%;
+    left: 5%;
+    color: #ffffff;
+    z-index: 10;
+}
+
+.carousel-text h1 {
+    font-size: 3rem;
+}
+
+.carousel-text p {
+    font-size: 1.5rem;
+}
+
+.carousel-indicators .rounded-circle {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s;
+}
+
+.carousel-indicators .active {
+    background-color: #e9c004;
+}
+
+.lead-text{
+    margin: 5%;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+.column-icon{
+    width: 40px;
+}
+
+.customers-icons-column{
+    margin: 10%;
+}
+
+.logo-grayscale{
+    filter: grayscale(100%);
+    transition: filter 0.3s ease
+}
+
+.logo-grayscale:hover {
+    filter: grayscale(0%);
+}
+
+.services-row{
+    margin: 5%;
+}
+
+.services-items{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.services-items-h4{
+    padding-top: 10%;
+}
+
+.services-items-logo{
+    width: 15vh;
+    height: 15vh;
+    transition: transform .2s; 
+}
+
+.services-items-logo:hover{
+    transform: scale(1.15); 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}

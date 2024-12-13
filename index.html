@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO | Ingeniería ALPA</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="fonts/bootstrap-icons.css">
+</head>
+<body>
+    
+    <main>
+    <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100 py-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logomin.png" alt="IngeAlpaImage" class="d-inline-block align-text-top" width="70">
+                </a>
+                <!-- Botón de menú hamburguesa con offcanvas -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Offcanvas para el menú de navegación -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+                    <div class="offcanvas-header">
+                        <a class="navbar-brand" href="index.html">
+                        <img src="images/logomin.png" alt="IngeAlpaImage" class="navbar-logo-min">
+                            <!--<svg class="bi" width="2em" height="2em">
+                                <use xlink:href="#home" />
+                            </svg>-->
+                        </a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body justify-content-end">
+                        <ul class="navbar-nav gap-3">
+                            <li class="nav-item"><a class="nav-link" href="operations.html">OPERACIONES</a></li>
+                            <li class="nav-item"><a class="nav-link" href="aboutus.html">NOSOTROS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="environment.html">MEDIO AMBIENTE</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Texto fijo sobre el carrusel -->
+        <div class="carousel-text">
+            <h1>INGENIERÍA ALPA S.A.</h1>
+            <p>Más de 30 años de trayectoria en la Industria Petrolera Argentina.</p>
+        </div>
+
+        <!-- Carrusel -->
+        <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/bg.jpg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bg3.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bg2.jpg" class="d-block w-100" alt="Imagen 3">
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="rounded-circle" aria-label="Slide 3"></button>
+            </div>
+        </div>
+
+
+        <div class="container my-5">
+            <div class="px-4 py-5 my-5 text-center border shadow-lg">
+                <div class="col-lg-6 mx-auto">
+                    <h3 class="display-4 fw-bold lh-1 text-body-emphasis">INGENIERÍA ALPA</h3>
+                    <p class="lead lead-text">ALPA es una empresa familiar creada en 1988 para participar en privatizaciones en Argentina. Desde 1990, opera en la industria petrolera como productora en las cuencas del Golfo San Jorge y Neuquina.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="#" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="container px-4 py-1">    
+            <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+                <div class="col d-flex flex-column align-items-start gap-2">
+                    <h2 class="fw-bold text-body-emphasis">Servicios</h2>
+                    <p class="text-body-secondary">COPESA ofrece los mejores servicios de bla bla bla bla bla</p>
+                    <a href="services.html" class="btn btn-primary btn-lg">Ver más</a>
+                </div>
+        
+                <div class="col">
+                    <div class="row row-cols-1 row-cols-sm-2 g-4">
+                        <div class="col d-flex flex-column gap-2">
+                            <div
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 rounded-3">
+                                <i class="bi bi-fire"></i>
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">Planta de tratamiento de residuos peligrosos e incineración</h4>
+                            <p class="text-body-secondary">Tratamiento de residuos peligrosos mediante un horno incinerador de múltiples cámaras que utiliza tecnología de pirólisis controlada, con certificación de disposición final de cenizas.</p>
+                        </div>
+        
+                        <div class="col d-flex flex-column gap-2">
+                            <div
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 rounded-3">
+                                <i class="bi bi-truck-flatbed"></i>
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">Transporte de residuos Petroleros</h4>
+                            <p class="text-body-secondary">Recolección, transporte y disposición final de residuos sólidos de la industria petrolera, y ofrecemos alquiler de volquetes en medidas de 5 m³ y 8 m³.</p>
+                        </div>
+        
+                        <div class="col d-flex flex-column gap-2">
+                            <div
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 rounded-3">
+                                <i class="bi bi-radioactive"></i>
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">Limpieza de fondo de tanques</h4>
+                            <p class="text-body-secondary">Limpieza de tanques de almacenamiento en la industria petrolera con equipamiento nuevo, incluyendo camiones con hidrolavadoras de última generación y camiones de super vacío "Vactor".</p>
+                        </div>
+        
+                        <div class="col d-flex flex-column gap-2">
+                            <div
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 rounded-3">
+                                <i class="bi bi-truck-front-fill"></i>
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">Grúas</h4>
+                            <p class="text-body-secondary">Servicio de grúas telescópicas móviles de 16 a 70 toneladas, con brazos de 28 a 50 metros, equipadas con control por joystick, computadora a bordo, sensor de estabilidad y balanza incorporada. Contamos con bases operativas en Las Heras, Caleta Olivia y Comodoro Rivadavia para optimizar logística y tiempos de servicio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <div class="container text-center my-5">
+            <h2 class="display-7 fw-bold text-body-emphasis">Operaciones</h2>
+            <div class="row justify-content-center services-row">
+                <div class="col-md-2 col-sm-4 mb-4 services-items">
+                    <img src="images/gauge.png" alt="" class="services-items-logo">
+                    <h4 class="fw-semibold mb-0 text-body-emphasis services-items-h4">Exploración</h4>
+                </div>
+                <div class="col-md-2 col-sm-4 mb-4 services-items">
+                    <img src="images/gauge.png" alt="" class="services-items-logo">
+                    <h4 class="fw-semibold mb-0 text-body-emphasis services-items-h4">Producción</h4>
+                </div>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="services.html" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Ver más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-4 py-5 my-5 text-center border shadow-lg main-customers">
+            <h3 class="display-7 fw-bold text-body-emphasis">PRINCIPALES CLIENTES</h3>
+            <div class="col-lg-5 mx-auto">
+                <div class="row justify-content-center customers-icons-column">
+                    <div class="col-6 col-md-3 mb-3">
+                        <img src="images/logoypf.png" alt="Logo Cliente 1" class="img-fluid logo-grayscale">
+                    </div>
+                    <div class="col-6 col-md-3 mb-3">
+                        <img src="images/logotecpetrol.png" alt="Logo Cliente 2" class="img-fluid logo-grayscale">
+                    </div>
+                    <div class="col-6 col-md-3 mb-3">
+                        <img src="images/Application.ico" alt="Logo Cliente 3" class="img-fluid logo-grayscale">
+                    </div>
+                    <div class="col-6 col-md-3 mb-3">
+                        <img src="images/Application.ico" alt="Logo Cliente 4" class="img-fluid logo-grayscale">
+                    </div>
+                </div>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="clientes.html" class="btn btn-dark btn-lg px-4 gap-3">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer mt-auto py-4 bg-dark text-white">
+        <div class="container text-center text-md-left">
+            <img src="images/logomin.png" alt="IngeAlpaImage" class="footer-logo mb-3" width="70">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <p>Av. Callao 796, 5to Piso,<br>Buenos Aires, Argentina</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <p><strong>Teléfono:</strong> (+54) 11 4816 3291</p>
+                    <a href="mailto:dbentos@ing-alpa.com.ar">dbentos@ing-alpa.com.ar</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <p>&copy; 2024 INGENIERÍA ALPA. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
