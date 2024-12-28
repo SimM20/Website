@@ -8,10 +8,10 @@ body {
 }
 
 .navbar {
-    top: 5%;
     z-index: 20;
     padding-left: 5%;
     padding-right: 5%;
+    background-color: #0000006c;
 }
 
 .navbar-nav .nav-link {

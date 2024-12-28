@@ -1,0 +1,13 @@
+.bg-image{
+    background-image: url("../images/bg3.jpg");
+    background-size: cover;
+    height: 100vh;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-h2{
+    color: white;
+    font-size: 100px;
+}
