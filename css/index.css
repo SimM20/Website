@@ -1,3 +1,9 @@
+.navbar {
+    z-index: 20;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #21252962;
+}
 
 .carousel-item img {
     height: 100vh;
@@ -28,7 +34,12 @@
 }
 
 .carousel-indicators .active {
-    background-color: #e9c004;
+    background-color: white;
+}
+
+.about-us-big-container{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
 }
 
 .about-us-container{
@@ -86,16 +97,16 @@
 }
 
 .services-items{
-    width: 30%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    width: 45vh;
+    padding-top: 15%;
+    padding-bottom: 15%;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: #4c00ff90
+    background-color: #212529
 }
 
 .service-item:hover{
-    transform: scale(1.15); 
+    transform: scale(1.25); 
 }
 
 .services-items-link{
@@ -111,8 +122,4 @@
     width: 20vh;
     height: 20vh;
     transition: transform .2s; 
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
 }

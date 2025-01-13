@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOSOTROS | Ingeniería ALPA</title>
+    <title>EXPLORACION | Ingeniería ALPA</title>
+    <link rel="shortcut icon" type="image/png" href="../images/logomin.png"/>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/aboutus.css">
+    <link rel="stylesheet" href="../css/exploration.css">
     <link rel="stylesheet" href="../fonts/bootstrap-icons.css">
 </head>
 <body>
-    
     <main>
     <!-- NavBar -->
-        <nav class="navbar navbar-expand-lg navbar-dark position-absolute w-100 py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark w-100 py-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img src="../images/logomin.png" alt="IngeAlpaImage" class="d-inline-block align-text-top" width="70">
@@ -32,30 +32,30 @@
                     </div>
                     <div class="offcanvas-body justify-content-end">
                         <ul class="navbar-nav gap-3">
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown" data-bs-theme="dark">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">OPERACIONES</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Exploración</a></li>
-                                    <li><a class="dropdown-item" href="#">Producción</a></li>
+                                    <li><a class="dropdown-item" href="exploration.html">Exploración</a></li>
+                                    <li><a class="dropdown-item" href="production.html">Producción</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown" data-bs-theme="dark">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">NOSOTROS</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Nuestra historia</a></li>
+                                    <li><a class="dropdown-item" href="aboutus.html">Nuestra historia</a></li>
                                     <li><a class="dropdown-item" href="#">Asociaciones</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item"><a class="nav-link" href="#">MEDIO AMBIENTE</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown" data-bs-theme="dark">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">CONTACTO</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="#">Encontranos</a></li>
                                     <li><a class="dropdown-item" href="#">Contactate</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown" data-bs-theme="dark">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
                                     <i class="bi bi-globe2"></i>
                                 </a>
@@ -70,22 +70,17 @@
             </div>
         </nav>
 
-        <div class="bg-image d-flex  align-items-center">
-            <div class="container text-center text-white">
-                <h2 class="bg-h2 fw-bold">NUESTRA HISTORIA</h2>
-            </div>
-        </div>
-
-        <div class="container my-5">
-            <div class="px-4 py-5 my-5 text-center border shadow-lg">
-                <div class="col-lg-6 mx-auto">
-                    <p class="lead lead-text">ALPA es una empresa familiar creada en 1988 para participar en privatizaciones en Argentina. Desde 1990, opera en la industria petrolera como productora en las cuencas del Golfo San Jorge y Neuquina.</p>
+        <div class="about-us-big-container">
+            <div class="py-5 text-center about-us-container">
+                <div class=" py-5 col-lg-6 mx-auto">
+                    <h3 class="py-5 display-3 fw-bold lh-1 text-body-emphasis">EXPLORACIÓN</h3>
                 </div>
             </div>
         </div>
 
+
     </main>
-    <footer class="footer mt-auto py-4 bg-dark text-white">
+    <footer class="footer mt-auto py-4 text-white">
         <div class="container text-center text-md-left">
             <img src="../images/logomin.png" alt="IngeAlpaImage" class="footer-logo mb-3" width="70">
             <div class="row">

@@ -1,0 +1,10 @@
+
+.about-us-big-container{
+    height: 40vh;
+}
+.about-us-container{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.242), rgba(255, 255, 255, 0.753)), url("../images/bg2.jpg");
+    background-position: 50%;
+    height: 100%;
+}
+
