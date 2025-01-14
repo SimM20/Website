@@ -27,8 +27,8 @@
 }
 
 .carousel-indicators .rounded-circle {
-    width: 12px;
-    height: 12px;
+    width: 1.2vh;
+    height: 1.2vh;
     background-color: rgba(255, 255, 255, 0.5);
     transition: background-color 0.3s;
 }
@@ -38,8 +38,8 @@
 }
 
 .about-us-big-container{
-    margin-top: 15vh;
-    margin-bottom: 15vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .about-us-container{
