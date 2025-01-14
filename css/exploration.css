@@ -1,4 +1,3 @@
-
 .about-us-big-container{
     height: 40vh;
 }
@@ -8,3 +7,46 @@
     height: 100%;
 }
 
+.GolfoSanJorge-item-big-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.242), rgba(255, 255, 255, 0.753)), url("../images/CuencaSanJorge.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+.CuencaNeuquen-item-big-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.242), rgba(255, 255, 255, 0.753)), url("../images/CuencaNeuquen.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+.CuencaRioNegro-item-big-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.242), rgba(255, 255, 255, 0.753)), url("../images/CuencaRioNegro.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+.area-items{
+    margin-top: 45%;
+    justify-content: space-between;
+}
+
+.item-text-content{
+    background-color: #616469;
+    width: 50vh;
+    height: 20vh;
+    margin-left: 5%;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.items{
+    margin-right: 2%;
+    margin-left: 2%;
+}

@@ -11,17 +11,17 @@
 .area-item-big-container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.242), rgba(255, 255, 255, 0.753)), url("../images/bg2.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.242), rgba(255, 255, 255, 0.753)), url("../images/bg.jpg");
     background-position: 50%;
 }
 
 .area-items{
-    margin-top: 30%;
+    margin-top: 35%;
     justify-content: space-between;
 }
 
 .item-text-content{
-    background-color: #21252962;
+    background-color: #616469;
     width: 50vh;
     height: 20vh;
     margin-left: 5%;
@@ -29,4 +29,3 @@
     align-content: center;
     text-align: center;
 }
-
