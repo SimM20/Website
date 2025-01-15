@@ -16,7 +16,7 @@ body {
     color: #ffffff;
 }
 .navbar-nav .nav-link:hover {
-    color: #212529;
+    color: #3d4145;
 }
 
 .navbar-logo-min{
@@ -68,4 +68,12 @@ body {
 .div-debug{
     color: red;
     background-color: red;
+}
+
+.logo-grayscale{
+    filter: grayscale(100%);
+}
+
+.logo-grayscale:hover{
+    filter: grayscale(0%);
 }
