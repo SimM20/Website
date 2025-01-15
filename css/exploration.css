@@ -5,6 +5,11 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(0, 0, 0, 1)), url("../images/bg2.jpg");
     background-position: 50%;
     height: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .GolfoSanJorge-item-big-container{
@@ -75,7 +80,6 @@
         border-left: none;
     }
 }
-
 @media (max-width: 576px){
     .area-items{
         margin-top: 25%;
@@ -85,5 +89,53 @@
         justify-items: start;
         justify-content: start;
         text-align: start;
+    }
+}
+
+@media (max-height: 720px){
+    .area-items{
+        margin-top: 30%;
+    }
+    .item-text{
+        font-size: large;
+    }
+}
+@media (max-height: 640px){
+    .area-items{
+        margin-top: 25%;
+    }
+}
+@media (max-height: 560px){
+    .area-items{
+        margin-top: 20%;
+    }
+}
+@media (max-height: 485px){
+    .area-items{
+        margin-top: 15%;
+    }
+    .item-text{
+        font-size: medium;
+    }
+}
+@media (max-height: 410px){
+    .area-items{
+        margin-top: 10%;
+    }
+    .item-text{
+        font-size: small;
+    }
+}
+@media (max-height: 330px){
+    .area-items{
+        margin-top: 5%;
+    }
+    .item-text{
+        font-size: smaller;
+    }
+}
+@media (max-height: 250px){
+    .area-items{
+        margin-top: 0%;
     }
 }
