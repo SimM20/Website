@@ -63,9 +63,27 @@
 }
 
 .area-items .col {
-    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
 }
 
-.area-items .col:last-child {
-    border-right: none;
+.area-items .col:first-child {
+    border-left: none;
+}
+
+@media (max-width: 991.5px){
+    .area-items .col {
+        border-left: none;
+    }
+}
+
+@media (max-width: 574px){
+    .area-items{
+        margin-top: 25%;
+        justify-content: start;
+    }
+    .items{
+        justify-items: start;
+        justify-content: start;
+        text-align: start;
+    }
 }
