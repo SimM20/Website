@@ -11,9 +11,14 @@
 }
 
 .carousel-text {
+    height: 25vh;
+    width: 75vh;
+    align-content: center;
+    justify-items: center;
     position: absolute;
-    bottom: 35%;
-    left: 5%;
+    background-color: #21252998;
+    bottom: 30%;
+    left: 2%;
     color: #ffffff;
     z-index: 10;
 }

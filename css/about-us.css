@@ -1,4 +1,3 @@
-
 .about-us-big-container{
     height: 40vh;
 }
@@ -13,43 +12,20 @@
     justify-items: center;
 }
 
-.area-item-big-container{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.500), rgba(0, 0, 0, 0.400)), url("../images/bg.jpg");
-    background-position: 50%;
+.office-container{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(0, 0, 0, 1)), url("../images/office.jpeg");
+    background-position: bottom;
 }
 
-.item-text-content{
-    background-color: #696561;
-    width: 50vh;
-    height: 20vh;
-    margin-left: 5%;
-    transform: translateY(50%);
-    justify-items: center;
-    align-content: center;
-    text-align: center;
+.card{
+    transition-duration: 200ms;
+    opacity: .7;
 }
 
-.area-items{
-    margin-top: 30%;
-    justify-content: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.items{
-    justify-items: center;
-    justify-content: center;
-    text-align: start;
-}
-
-.area-items .col {
-    border-left: 2px solid #ffffff;
-}
-
-.area-items .col:first-child {
-    border-left: none;
+.card:hover{
+    transition-duration: 200ms;
+    opacity: .4;
+    filter: contrast(75%);
 }
 
 @media (max-width: 992px){
@@ -71,7 +47,7 @@
 
 @media (max-height: 720px){
     .area-items{
-        margin-top: 25%;
+        margin-top: 30%;
     }
     .item-text{
         font-size: large;
@@ -79,15 +55,23 @@
 }
 @media (max-height: 640px){
     .area-items{
-        margin-top: 20%;
+        margin-top: 25%;
     }
 }
 @media (max-height: 560px){
     .area-items{
-        margin-top: 15%;
+        margin-top: 20%;
     }
 }
 @media (max-height: 485px){
+    .area-items{
+        margin-top: 15%;
+    }
+    .item-text{
+        font-size: medium;
+    }
+}
+@media (max-height: 410px){
     .area-items{
         margin-top: 10%;
     }
@@ -95,7 +79,7 @@
         font-size: small;
     }
 }
-@media (max-height: 410px){
+@media (max-height: 330px){
     .area-items{
         margin-top: 5%;
     }
@@ -103,11 +87,8 @@
         font-size: smaller;
     }
 }
-@media (max-height: 330px){
+@media (max-height: 250px){
     .area-items{
         margin-top: 0%;
-    }
-    .item-text{
-        font-size: x-small;
     }
 }

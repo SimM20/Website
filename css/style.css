@@ -77,3 +77,9 @@ body {
 .logo-grayscale:hover{
     filter: grayscale(0%);
 }
+
+.separator{
+    height: 2px;
+    background-color: #212529;
+    margin: 0 auto;
+}
