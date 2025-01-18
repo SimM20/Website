@@ -18,15 +18,15 @@
 }
 
 .card{
-    transition-duration: 200ms;
     opacity: .7;
 }
 
 .card:hover{
-    transition-duration: 200ms;
-    opacity: .4;
-    filter: contrast(75%);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
+
+
 
 @media (max-width: 992px){
     .area-items .col {
