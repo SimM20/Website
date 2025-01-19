@@ -10,20 +10,17 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="fonts/bootstrap-icons.css">
 </head>
+
 <body>
-    
     <main>
-    <!-- NavBar -->
         <nav class="navbar navbar-expand-lg navbar-dark position-absolute w-100 py-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img src="images/logomin.png" alt="IngeAlpaImage" class="d-inline-block align-text-top logo-grayscale" width="70">
                 </a>
-                <!-- Botón de menú hamburguesa con offcanvas -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <!-- Offcanvas para el menú de navegación -->
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
                     <div class="offcanvas-header">
                         <a class="navbar-brand" href="index.html">
@@ -66,13 +63,13 @@
             </div>
         </nav>
 
-        <!-- Texto fijo sobre el carrusel -->
-        <div class="carousel-text">
-            <h1>INGENIERÍA ALPA S.A.</h1>
-            <p>Más de 30 años de trayectoria en la Industria <br>Petrolera Argentina.</p>
+        <div class="carousel-container">
+            <div class="carousel-text">
+                <h1>INGENIERÍA ALPA S.A.</h1>
+                <p>Más de 30 años de trayectoria en la Industria <br>Petrolera Argentina.</p>
+            </div>
         </div>
 
-        <!-- Carrusel -->
         <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -91,7 +88,6 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="rounded-circle" aria-label="Slide 3"></button>
             </div>
         </div>
-
 
         <div class="about-us-big-container">
             <div class="px-4 py-5 my-5 text-center border shadow-lg about-us-container">
@@ -126,8 +122,8 @@
                 </div>
             </div>
         </div>
-
     </main>
+
     <footer class="footer mt-auto py-4 text-white">
         <div class="container text-center text-md-left">
             <a href="index.html">

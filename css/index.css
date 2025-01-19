@@ -10,9 +10,8 @@
     object-fit: cover;
 }
 
-.carousel-text {
-    height: 25vh;
-    width: 75vh;
+.carousel-container{
+    width: 65vh;
     align-content: center;
     justify-items: center;
     position: absolute;
