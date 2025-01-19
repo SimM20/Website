@@ -2,9 +2,10 @@
     height: 40vh;
 }
 .about-us-container{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(0, 0, 0, 1)), url("../images/bg2.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(0, 0, 0, 1)), url("../images/ExploracionImage.jpeg");
     background-position: 50%;
     height: 100%;
+    background-size: cover;
     text-align: center;
     align-items: center;
     align-content: center;

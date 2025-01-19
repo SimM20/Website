@@ -106,17 +106,36 @@
 }
 
 .services-row{
-    margin-top: 5%;
+    margin-top: 7%;
+    height: 80vh;
+    align-content: center;
     align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
 
-.services-items{
-    width: 45vh;
+.services-items-exploracion{
+    width: 55vh;
     padding-top: 15%;
     padding-bottom: 15%;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: #212529
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: linear-gradient(rgba(19, 37, 91, 0.224), rgb(19, 37, 91)), url("../images/ExploracionImage.jpeg");
+    background-position: 55%;
+    height: 100%;
+    background-size: cover;
+}
+
+.services-items-produccion{
+    width: 55vh;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: linear-gradient(rgba(19, 37, 91, 0.224), rgb(19, 37, 91)), url("../images/ProduccionImage.jpg");
+    background-position: 50%;
+    height: 100%;
+    background-size: cover;
 }
 
 .service-item:hover{
