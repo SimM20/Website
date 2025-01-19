@@ -76,18 +76,18 @@
                         <div class="card-body">
                             <h2 class="card-title text-center mb-4">Contactanos</h2>
                             <div class="separator mx-auto mb-4 w-50"></div>
-                            <form>
+                            <form action="../process-form.php" method="POST">
                                 <div class="mb-3 py-3">
                                     <label for="InputName" class="form-label">Nombre</label>
-                                    <input type="text" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="Jose Gomez Perez">
+                                    <input type="text" class="form-control" id="username" name="username" placeholder="Jose Gomez Perez" required>
                                 </div>
                                 <div class="mb-3 py-3">
                                     <label for="InputEmail" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="josegomez@tuemail.com">
+                                    <input type="email" class="form-control" id="useremail" name="useremail" placeholder="josegomez@tuemail.com" required>
                                 </div>
                                 <div class="mb-3 py-3">
                                     <label for="InputMessage" class="form-label">Mensaje</label>
-                                    <textarea name="message" class="form-control" id="InputMessage"></textarea>
+                                    <textarea name="usermessage" class="form-control" id="usermessage" required></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-outline-secondary py-2 mb-3">ENVIAR</button>
                             </form>
@@ -130,7 +130,10 @@
             </a>
             <div class="row">
                 <div class="col-md-4 mb-3">
-                    <p>Av. Callao 796, 5to Piso,<br>Buenos Aires, Argentina</p>
+                    <a href="https://x.com/" target="_blank" style="font-size: 1.25rem;" class="me-1"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank" style="font-size: 1.25rem;" class="me-1"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" style="font-size: 1.25rem;" class="me-1"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" style="font-size: 1.25rem;" class="me-1"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <div class="col-md-4 mb-3">
                     <a href="tel:+541148163291"><strong>Teléfono:</strong> (+54) 11 4816 3291</a>

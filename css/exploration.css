@@ -45,8 +45,9 @@
 }
 
 .item-text-content{
-    background-color: #696561;
-    width: 50vh;
+    background-color: #21252991;
+    backdrop-filter: blur(10px);
+    width: 55vh;
     height: 20vh;
     margin-left: 5%;
     transform: translateY(50%);
