@@ -71,11 +71,11 @@ body {
 }
 
 .logo-grayscale{
-    filter: grayscale(100%);
+    filter: grayscale(0%);
 }
 
 .logo-grayscale:hover{
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 
 .separator{

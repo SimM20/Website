@@ -97,12 +97,12 @@
 }
 
 .logo-grayscale{
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     transition: filter 0.3s ease
 }
 
 .logo-grayscale:hover {
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 
 .services-row{
@@ -146,11 +146,31 @@
 }
 
 .services-items-h4{
-    margin-top: 5%;
     color: white;
 }
 
 .services-items-logo{
     width: 20vh;
     height: 20vh;
+}
+
+.op-text{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+@media (max-height: 720px){
+    .op-text{
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+}
+@media (max-width: 485px){
+    .carousel-container{
+        width: 45vh;
+    }
+    .op-text{
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+    }
 }
