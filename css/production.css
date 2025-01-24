@@ -77,6 +77,11 @@
         text-align: start;
     }
 }
+@media (max-width: 485px){
+    .item-text-content{
+        width: 45vh;;
+    }
+}
 
 @media (max-height: 720px){
     .area-items{
