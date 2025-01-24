@@ -122,7 +122,6 @@
     margin-right: 2%;
     background-image: linear-gradient(rgba(19, 37, 91, 0.224), rgb(19, 37, 91)), url("../images/ExploracionImage.jpeg");
     background-position: 55%;
-    height: 100%;
     background-size: cover;
 }
 
@@ -134,7 +133,6 @@
     margin-right: 2%;
     background-image: linear-gradient(rgba(19, 37, 91, 0.224), rgb(19, 37, 91)), url("../images/ProduccionImage.jpg");
     background-position: 50%;
-    height: 100%;
     background-size: cover;
 }
 
