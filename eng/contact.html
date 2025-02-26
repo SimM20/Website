@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OUR STORY | Ingeniería ALPA</title>
+    <title>CONTACT | Ingeniería ALPA</title>
     <link rel="shortcut icon" type="image/png" href="../images/logomin.png"/>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/about-us.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../fonts/bootstrap-icons.css">
 </head>
 
@@ -54,8 +54,8 @@
                                     <i class="bi bi-globe2"></i>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="../esp/sobre-nosotros.html">Spanish</a></li>
-                                    <li><a class="dropdown-item" href="about-us.html">English</a></li>
+                                    <li><a class="dropdown-item" href="../esp/contacto.html">Spanish</a></li>
+                                    <li><a class="dropdown-item" href="contact.html">English</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -66,62 +66,60 @@
 
         <div class="about-us-big-container">
             <div class="about-us-container">
-                <h3 class="display-3 fw-bold lh-1 text-white">OUR STORY</h3>
+                <h3 class="display-3 fw-bold lh-1 text-white">FIND US</h3>
             </div>
         </div>
 
-        <div class="container my-5">
-            <div class="px-4 py-3 text-center rounded-3 border shadow-lg">
-                <div class="py-3">
-                    <h3 class="display-5 fw-bold">About us</h3>
-                    <div class="py-2 col-lg-6 mx-auto">
-                        <p class="fs-5 mb-4">ALPA is a privately-owned family company founded in August 1988 by Horacio and Alfredo Zubiri, established to participate in the privatization processes in Argentina. <br> <br>Since 1990, ALPA has participated in the Argentine oil industry as a producer and operator in the Golfo San Jorge and Neuquén basins. <br> <br>Since its inception, and for the development of upstream projects, it has formed partnerships with various local and international companies.</p>
-                        <p class="fs-3"><br>"ALPA's vision is to develop as an exploration, production, and operations company in the Argentine oil industry."</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title text-center mb-4">Contact Us</h2>
+                            <div class="separator mx-auto mb-4 w-50"></div>
+                            <form action="../process-form.php" method="POST">
+                                <div class="mb-3 py-3">
+                                    <label for="InputName" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="username" name="username" placeholder="Jose Gomez Perez" required>
+                                </div>
+                                <div class="mb-3 py-3">
+                                    <label for="InputEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="useremail" name="useremail" placeholder="josegomez@tuemail.com" required>
+                                </div>
+                                <div class="mb-3 py-3">
+                                    <label for="InputMessage" class="form-label">Message</label>
+                                    <textarea name="usermessage" class="form-control" id="usermessage" required></textarea>
+                                </div>
+                                <div class="mb-3 py-3">
+                                    <input type="file" class="form-control" id="inputGroupFile04" name="userfile" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                </div>
+                                <button type="submit" class="btn btn-outline-secondary py-2 mb-3">SEND</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="py-3 shadow-lg">
-            <div class="container py-3">
-                <p class="fs-6 mb-3 comunication-text">Ingeniería Alpa S.A. announces the appointment of Mr. Alberto Armando Boix to its Board of Directors as a Full Director. <br>Mr. Alberto Armando Boix is an actuary from the University of Buenos Aires, holds an MBA with a specialization in Finance and International Business from the University of Chicago, and has over 30 years of experience in executive positions and as a director in investment banks and industries. <br>We wish Alberto the best of luck and trust that his presence on the Board will bring a strategic vision for the company's growth.</p>
-            </div>
-        </div>
-
-        <div class="py-5 office-container">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 mb-3 py-4">
-                    <div class="col py-5">
-                        <div class="card text-center shadow h-100">
-                            <div class="card-body">
-                                <div class="mb-3">
-                                    <h3 class="fs-2">Ricardo Andriano</h3>
-                                </div>
-                                <div class="separator mx-auto mb-4 w-75"></div>
-                                <p class="card-text py-1 fs-5">President</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col py-5">
-                        <div class="card text-center shadow h-100">
-                            <div class="card-body">
-                                <div class="mb-3">
-                                    <h3 class="fs-2">Alfredo Zubiri</h3>
-                                </div>
-                                <div class="separator mx-auto mb-4 w-75"></div>
-                                <p class="card-text py-1 fs-5">Vicepresident</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col py-5">
-                        <div class="card text-center shadow h-100">
-                            <div class="card-body">
-                                <div class="mb-3">
-                                    <h3 class="fs-2">Alberto Boix</h3>
-                                </div>
-                                <div class="separator mx-auto mb-4 w-75"></div>
-                                <p class="card-text py-1 fs-5">Director</p>
-                            </div>
+                <div class="col-md-5 text-center">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title text-center mb-4">Find Us</h2>
+                            <div class="separator mx-auto mb-4 w-50"></div>
+                            <ul class="list-unstyled py-3">
+                                <li class="mb-3">
+                                    <i class="bi bi-telephone-fill text-primary me-2"></i>
+                                    <a class="link-to-contact" href="tel:+541148163291"><strong>Phone:</strong> (+54) 11 4816 3291</a>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-envelope-fill text-danger me-2"></i>
+                                    <a class="link-to-contact" href="mailto:dbentos@ing-alpa.com.ar"><strong>Email:</strong> dbentos@ing-alpa.com.ar</a>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-geo-alt-fill text-success me-2"></i>
+                                    <strong>Address:</strong> Av. Callao 796, 5to Piso, Buenos Aires, Argentina<p>
+                                </li>
+                                <li>
+                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1714215869915!2d-58.395639623835805!3d-34.59982655729345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabf94adca85%3A0xad8a7db07928c515!2sAv.%20Callao%20796%2C%20C1023AAN%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1737228513458!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -131,7 +129,7 @@
 
     <footer class="footer mt-auto py-4 text-white">
         <div class="container text-center text-md-left">
-            <a href="index.html">
+            <a href="../index.html">
                 <img src="../images/logomin.png" alt="IngeAlpaImage" class="footer-logo mb-3 logo-grayscale" width="70">
             </a>
             <div class="row">

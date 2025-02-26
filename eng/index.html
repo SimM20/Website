@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OUR STORY | Ingeniería ALPA</title>
+    <title>HOME | Ingeniería ALPA</title>
     <link rel="shortcut icon" type="image/png" href="../images/logomin.png"/>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/about-us.css">
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../fonts/bootstrap-icons.css">
 </head>
 
 <body>
     <main>
-        <nav class="navbar navbar-expand-lg navbar-dark w-100 py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark position-absolute w-100 py-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img src="../images/logomin.png" alt="IngeAlpaImage" class="d-inline-block align-text-top logo-grayscale" width="70">
@@ -23,7 +23,7 @@
                 </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
                     <div class="offcanvas-header">
-                        <a class="navbar-brand" href="../index.html">
+                        <a class="navbar-brand" href="index.html">
                             <img src="../images/logomin.png" alt="IngeAlpaImage" class="navbar-logo-min">
                         </a>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -54,8 +54,8 @@
                                     <i class="bi bi-globe2"></i>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="../esp/sobre-nosotros.html">Spanish</a></li>
-                                    <li><a class="dropdown-item" href="about-us.html">English</a></li>
+                                    <li><a class="dropdown-item" href="../index.html">Spanish</a></li>
+                                    <li><a class="dropdown-item" href="index.html">English</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -64,65 +64,61 @@
             </div>
         </nav>
 
-        <div class="about-us-big-container">
-            <div class="about-us-container">
-                <h3 class="display-3 fw-bold lh-1 text-white">OUR STORY</h3>
+        <div class="carousel-container">
+            <div class="carousel-text">
+                <h1>INGENIERÍA ALPA S.A.</h1>
+                <p>Over 30 years of experience in the <br>Argentine Oil Industry.</p>
             </div>
         </div>
 
-        <div class="container my-5">
-            <div class="px-4 py-3 text-center rounded-3 border shadow-lg">
-                <div class="py-3">
-                    <h3 class="display-5 fw-bold">About us</h3>
-                    <div class="py-2 col-lg-6 mx-auto">
-                        <p class="fs-5 mb-4">ALPA is a privately-owned family company founded in August 1988 by Horacio and Alfredo Zubiri, established to participate in the privatization processes in Argentina. <br> <br>Since 1990, ALPA has participated in the Argentine oil industry as a producer and operator in the Golfo San Jorge and Neuquén basins. <br> <br>Since its inception, and for the development of upstream projects, it has formed partnerships with various local and international companies.</p>
-                        <p class="fs-3"><br>"ALPA's vision is to develop as an exploration, production, and operations company in the Argentine oil industry."</p>
+        <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../images/carrouselbg1.jpg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/carrouselbg2.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/carrouselbg3.jpg" class="d-block w-100" alt="Imagen 3">
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="rounded-circle" aria-label="Slide 3"></button>
+            </div>
+        </div>
+
+        <div class="about-us-big-container">
+            <div class="px-4 text-center border shadow-lg about-us-container">
+                <div class="col-lg-6 mx-auto about-us-text-container">
+                    <h1 class="display-4 fw-bold lh-1 text-white">INGENIERÍA ALPA</h1>
+                    <p class="lead lead-text text-white">ALPA is a privately-owned family company founded in August 1988 by Horacio and Alfredo Zubiri, established to participate in Argentina's privatization processes.<br><br>In 1990, ALPA joined the Argentine oil industry as a producer and operator in the Golfo San Jorge and Neuquén basins.<br><br>Since its inception, and for the development of up-stream projects, it has formed partnerships with various local and international companies.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="about-us.html" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">See more</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="py-3 shadow-lg">
-            <div class="container py-3">
-                <p class="fs-6 mb-3 comunication-text">Ingeniería Alpa S.A. announces the appointment of Mr. Alberto Armando Boix to its Board of Directors as a Full Director. <br>Mr. Alberto Armando Boix is an actuary from the University of Buenos Aires, holds an MBA with a specialization in Finance and International Business from the University of Chicago, and has over 30 years of experience in executive positions and as a director in investment banks and industries. <br>We wish Alberto the best of luck and trust that his presence on the Board will bring a strategic vision for the company's growth.</p>
-            </div>
-        </div>
-
-        <div class="py-5 office-container">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 mb-3 py-4">
-                    <div class="col py-5">
-                        <div class="card text-center shadow h-100">
-                            <div class="card-body">
-                                <div class="mb-3">
-                                    <h3 class="fs-2">Ricardo Andriano</h3>
-                                </div>
-                                <div class="separator mx-auto mb-4 w-75"></div>
-                                <p class="card-text py-1 fs-5">President</p>
-                            </div>
-                        </div>
+        <div class="container text-center my-5 py-5">
+            <h2 class="display-6 fw-bold text-body-emphasis my-5 op-text">Operations</h2>
+            <div class="row justify-content-center services-row my-5 py-5">
+                <div class="col-md-2 col-sm-4 mb-4 services-items-exploracion shadow-lg">
+                    <div class="service-item">
+                        <a href="exploration.html" class="services-items-link">
+                            <img src="../images/exploration-icon.png" alt="" class="services-items-logo">
+                            <h4 class="fw-semibold mb-0 services-items-h4">Exploration</h4>
+                        </a>
                     </div>
-                    <div class="col py-5">
-                        <div class="card text-center shadow h-100">
-                            <div class="card-body">
-                                <div class="mb-3">
-                                    <h3 class="fs-2">Alfredo Zubiri</h3>
-                                </div>
-                                <div class="separator mx-auto mb-4 w-75"></div>
-                                <p class="card-text py-1 fs-5">Vicepresident</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col py-5">
-                        <div class="card text-center shadow h-100">
-                            <div class="card-body">
-                                <div class="mb-3">
-                                    <h3 class="fs-2">Alberto Boix</h3>
-                                </div>
-                                <div class="separator mx-auto mb-4 w-75"></div>
-                                <p class="card-text py-1 fs-5">Director</p>
-                            </div>
-                        </div>
+                </div>
+                <div class="col-md-2 col-sm-4 mb-4 services-items-produccion shadow-lg">
+                    <div class="service-item">
+                        <a href="production.html" class="services-items-link">
+                            <img src="../images/production-icon.png" alt="" class="services-items-logo">
+                            <h4 class="fw-semibold mb-0 services-items-h4">Production</h4>
+                        </a>
                     </div>
                 </div>
             </div>
