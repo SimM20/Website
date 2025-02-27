@@ -11,7 +11,8 @@
 }
 
 .carousel-container{
-    width: 65vh;
+    width: 50vh;
+    min-height: 15vh;
     align-content: center;
     justify-items: center;
     position: absolute;
