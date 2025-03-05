@@ -78,23 +78,33 @@
                         <div class="card-body">
                             <h2 class="card-title text-center mb-4">Contact Us</h2>
                             <div class="separator mx-auto mb-4 w-50"></div>
-                            <form action="../../process-form.php" method="POST">
-                                <div class="mb-3 py-3">
-                                    <label for="InputName" class="form-label">Name</label>
-                                    <input type="text" class="form-control" id="username" name="username" placeholder="Jose Gomez Perez" required>
+                            <form form id="contactForm" action="https://formsubmit.co/simon.moraleslozano@live.com" method="POST" enctype="multipart/form-data">
+                                <div class="form-floating mb-4">
+                                    <input type="text" class="form-control" id="username" name="username" placeholder="Example Name" required>
+                                    <label for="floatingInput">Name</label>
                                 </div>
-                                <div class="mb-3 py-3">
-                                    <label for="InputEmail" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="useremail" name="useremail" placeholder="josegomez@tuemail.com" required>
+                                <div class="form-floating mb-4">
+                                    <input type="email" class="form-control" id="useremail" name="useremail" placeholder="name@example.com" required>
+                                    <label for="floatingInput">Email</label>
                                 </div>
-                                <div class="mb-3 py-3">
-                                    <label for="InputMessage" class="form-label">Message</label>
-                                    <textarea name="usermessage" class="form-control" id="usermessage" required></textarea>
+                                <div class="form-floating mb-5">
+                                    <textarea name="usermessage" class="form-control" placeholder="Message" id="floatingTextarea" required></textarea>
+                                    <label for="floatingTextarea">Message</label>
                                 </div>
-                                <div class="mb-3 py-3">
-                                    <input type="file" class="form-control" id="inputGroupFile04" name="userfile" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                <div class="mb-5">
+                                    <input type="file" class="form-control" id="inputGroupFile04" name="attachment" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                    <div id="fileHelpBlock" class="form-text">
+                                        Your file must not exceed 100MB in size and must be uploaded in .pdf, .png, or .jpg format.
+                                    </div>
+                                </div>
+                                <div id="thankYouAlert" class="alert alert-success d-none" role="alert">
+                                    Thank you for submitting your message! We will get in touch with you soon.
+                                </div>
+                                <div id="errorAlert" class="alert alert-danger d-none" role="alert">
+                                    An error occurred while sending your message. Please try again later. If the problem persists, contact simon.moraleslozano@live.com.
                                 </div>
                                 <button type="submit" class="btn btn-outline-secondary py-2 mb-3">SEND</button>
+                                <input type="hidden" name="_captcha" value="false">
                             </form>
                         </div>
                     </div>
@@ -153,5 +163,27 @@
     </footer>
 
     <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('#contactForm').submit(function(event) {
+    
+            var formData = new FormData(this);
+    
+            $.ajax({
+                url: $(this).attr('action'),
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function(response) {
+                    $('#thankYouAlert').removeClass('d-none');
+                    $('#contactForm')[0].reset();
+                },
+                error: function() {
+                    $('#errorAlert').removeClass('d-none');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
