@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../fonts/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 </head>
 
 <body>
@@ -93,7 +94,7 @@
 
         <div class="about-us-big-container">
             <div class="px-4 text-center border shadow-lg about-us-container">
-                <div class="col-lg-6 mx-auto about-us-text-container">
+                <div class="col-lg-6 mx-auto about-us-text-container" data-aos="fade">
                     <h1 class="display-4 fw-bold lh-1 text-white">INGENIERÍA ALPA</h1>
                     <p class="lead lead-text text-white">ALPA is a privately-owned family company founded in August 1988 by Horacio and Alfredo Zubiri, established to participate in Argentina's privatization processes.<br><br>In 1990, ALPA joined the Argentine oil industry as a producer and operator in the Golfo San Jorge and Neuquén basins.<br><br>Since its inception, and for the development of up-stream projects, it has formed partnerships with various local and international companies.</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -106,7 +107,7 @@
         <div class="container text-center my-5 py-5">
             <h2 class="display-6 fw-bold text-body-emphasis my-5 op-text">Operations</h2>
             <div class="row justify-content-center services-row my-5 py-5">
-                <div class="col-md-2 col-sm-4 mb-4 services-items-exploracion shadow-lg">
+                <div class="col-md-2 col-sm-4 mb-4 services-items-exploracion shadow-lg" data-aos="zoom-out-up">
                     <div class="service-item">
                         <a href="exploration/" class="services-items-link">
                             <img src="../images/exploration-icon.png" alt="" class="services-items-logo">
@@ -114,7 +115,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-4 mb-4 services-items-produccion shadow-lg">
+                <div class="col-md-2 col-sm-4 mb-4 services-items-produccion shadow-lg" data-aos="zoom-out-up">
                     <div class="service-item">
                         <a href="production/" class="services-items-link">
                             <img src="../images/production-icon.png" alt="" class="services-items-logo">
@@ -151,5 +152,11 @@
     </footer>
 
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init();
+        });
+    </script>
 </body>
 </html>
